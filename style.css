@@ -1,0 +1,32 @@
+.button{
+  font-size: 1.3em;
+  border-radius: 10%;
+  border: 1px solid ;
+  padding: 5px;
+}
+
+.button:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.button-neutral{
+  background-color: silver;
+  color: black;
+  border-color: grey;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.button-ok{
+  background-color: green;
+  color: white;
+  border-color: darkgreen;
+  box-shadow: 2px 2px 5px darkgreen;
+}
+
+.button-cancel{
+  background-color: red;
+  color: white;
+  border-color: darkred;
+  box-shadow: 2px 2px 5px darkred;
+}
